@@ -1,0 +1,37 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ececec;
+}
+
+.searchAreaParent{
+    background: white;
+    box-shadow:10px 10px 15px rgba(128, 128, 128, 0.385), -10px -10px 15px rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.searchAreaParent input{
+    /* background: white; */
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.searchAreaParent button{
+    width: 110px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial;
+}

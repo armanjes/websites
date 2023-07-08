@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #ececec;
+}
+
+.formBox{
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(128, 128, 128, 0.385), -10px -10px 15px rgb(255, 255, 255);
+    background: #ececec;
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.search input{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+button{
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: black;
+    color: white;
+    transition: .5s ease;
+    font-size: 18px;
+    border-radius: 5px;
+} 
+
+
+/* ---------------------------- */
+
+/* *{
+    background-color: #dfe6e9;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+form{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    padding: 13px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 15px rgba(128, 128, 128, 0.385), -10px -10px 15px rgb(255, 255, 255);
+
+}
+
+form > input, button{
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background: transparent; 
+    padding: 8px 4px;
+
+}
+
+button{
+    color: whitesmoke;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.input{
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgba(221, 243, 243, 0.682);
+} */

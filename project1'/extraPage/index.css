@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'arial';
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* nav bar start */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: #c8d6e5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+ul li{
+    padding: 0 15px;
+}
+
+ul li a{
+    color: #2d3436;
+    font-weight: 550;
+}
+
+/* nav bar end */
+
+/* hero area start */
+
+.hero-area{
+    background-image: url("/project1'/img/hero4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.hero-area h4{
+    padding: 0 0 20px 0;
+    font-size: large;
+}
+
+.hero-area h2{
+    font-size: 4rem;
+}
+
+.hero-area h3{
+    color: #00af83;
+    font-size: 2.45rem;
+    padding: 0 0 15px 0;
+}
+
+.hero-area > p{
+    color: #2d3436
+}
+
+.hero-area a{
+    color: #000000;
+    font-size: x-large;
+    background-image: url("/project1'/img/button.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px 15px 8px 20px;
+}
+/* hero area end */
+
+/* feature section start*/
+
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    padding: 0 80px;
+}
+
+.feature-container{
+    width: 150px;
+    height: 180px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+.feature-container img{
+    width: 100%;
+    height: 70%;
+    margin: 0 0 2px 0;
+}
+
+.feature-container h6{
+    display: inline-block;
+    font-size:.9rem;
+    color: #00af83;
+    background-color: #fddde4;
+    padding: 4px 6px 5px 6px;
+    border-radius: 4px;
+}
+
+.feature-container:nth-child(2) h6{
+    background-color: #cdebbc;
+}
+.feature-container:nth-child(3) h6{
+    background-color: #d1e8f2;
+}
+.feature-container:nth-child(4) h6{
+    background-color: #cdd4f8;
+
+}
+.feature-container:nth-child(5) h6{
+    background-color: #f6dbf6;    
+}
+.feature-container:nth-child(6) h6{
+    background-color: #fff2e5;
+}
+
+/* feature section end*/
+
+/* Product Section start*/
+.products{
+    padding: 0 80px;
+}
+
+.product-title{
+    text-align: center;
+}
+
+.product-title h1{
+    font-size: 2.6rem;
+    padding: 0 0 4px 0;
+}
+.product-title h6{
+    font-size: 14px;
+    color: #979bab;
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product{
+    margin: 14px 0;
+    border: 1px solid #bdc5ce;
+    border-radius: 4px;
+    width: 200px;
+    padding: 5px;
+    cursor: pointer;
+}
+.product img{
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.ratting{
+    margin: 0 4px 0 4px;
+}
+
+.ratting p{
+    color: #979bab;
+    margin-top: 6px;
+}
+
+.ratting #stars{
+    color: rgba(250,100,0);
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 0 0 0;
+}
+
+.buy a i{
+    color: #00af83;
+    font-size: larger;
+}
+
+.product:hover{
+    box-shadow:14px 10px 54px rgb(232, 0, 0);
+    transition: 0.3s ease;
+}
+
+/* Product Section end*/
+
+/* banner start */
+
+.banner-container{
+    margin: 40px 0 20px 0 ;
+    width: 100%;
+    background-image: url("/project1'/img/Banner/b2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-container h4{
+    margin: 0 0 20px 0;
+}
+
+.banner-container span{
+    color: crimson;
+}
+
+.banner-container a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin: 6px 0 0 0;
+    background-color: teal;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+/* banner end */
+
+/* banner start */
+
+.banners{
+    margin: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    line-height: 1.8;
+    color: white;
+}
+
+.parent-banner-text1{
+    background-image: url("/project1'/img/Banner/b10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 450px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.parent-banner-text2{
+    background-image: url("/project1'/img/Banner/b17.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 40vw;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.banners a{
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid white;
+    padding: 4px 14px;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+
+.parent-banner-text1:hover a{
+    background-color: #088178;
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.parent-banner-text2:hover a{
+    background-color: #088178;
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.banners3{
+    margin: 0 80px 40px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banners3 span{
+    color: crimson;
+    font-weight: 900;
+}
+
+.banners3 .banners-about{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.banners3 .parent-banner-text01{
+    background-image: url("/project1'/img/Banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 35vh;
+}
+
+.banners3 .parent-banner-text02{
+    background-image: url("/project1'/img/Banner/banners2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 360px;
+    height: 35vh;
+}
+
+.banners3 .parent-banner-text03{
+    background-image: url("/project1'/img/Banner/banner3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 35vh;
+}
+/* banner end */
+
+/* newsletter star */
+
+.newsletter-container{
+    background-color: #192a56;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 40px 0;
+}
+
+.contexts h3{
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+.contexts p{
+    color: #92b0fc;
+}
+
+.contexts span{
+    color: rgb(250, 171, 0);
+    font-weight: 900;
+}
+
+.searrch{
+    background-color: white;
+    border-radius: 4px;
+}
+
+.searrch input{
+    padding: 6px 8px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 40px;
+    height: 2.5rem;
+}
+
+.searrch a{
+    color: whitesmoke;
+    background-color: teal;
+    padding: 11.25px 8px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* newsletter end */
+
+/* footer start */
+
+.footer-container{
+    margin: 0 80px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: first baseline;
+}
+
+.contact h4{
+    margin: 15px 0;
+}
+
+.about h4, .acount h4{
+    margin: 15px 0;
+}
+
+.contact strong{
+    color: #000000;
+}
+
+.about a,.acount a, .contact p{
+    color: #808e94;
+}
+
+
+.contact a i{
+    font-size: larger;
+    margin: 0 4px 0 4px;
+}
+
+.about a p, .acount a p{
+    line-height: 1.5;
+    
+}
+
+.app > a > img{
+    margin: 12px 0 6px 0;
+    width: 120px;
+    border: 2px solid teal;
+    border-radius: 7px;
+}
+
+.pay p{
+    margin: 6px 0 8px 0;
+}
+
+.copyright{
+    text-align: center;
+    margin: 12px 0;
+}
+
+/* footer end */

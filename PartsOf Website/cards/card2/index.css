@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    background-color: #ffbad2;
+}
+
+.title h1{
+    text-align: center;
+    margin: 20px 0 20px 0 ;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: xx-large;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 20px 0;
+}
+
+.common-class{
+    width: 250px;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.common-class:hover{
+    box-shadow: 4px 4px 20px #2f3640 ;
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+.nameAndPricing{
+    display: flex;
+    justify-content: space-around;
+}
+
+.common-class > p{
+    margin: 15px 0 0 0;
+    text-align: center;
+}
+
+
+img{
+    width: 250px;
+    height: 280px;
+    border-radius: 4px;
+}
+
+span{
+    color: rgb(34, 28, 28);
+}
+
+.link{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: whitesmoke;
+    background-color: #192a56;
+    margin-top: 10px;
+    padding: 4px;
+}

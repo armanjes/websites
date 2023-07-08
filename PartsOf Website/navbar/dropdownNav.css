@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4a4a4a;
+    padding: 0 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+.logo a{
+    display: block;
+    font-size: 2rem;
+
+}
+
+.nav-links ul{
+    display: flex;
+    align-items: center;
+}
+
+/* .nav-links ul li{
+    position: relative;
+} */
+
+.nav-links ul li a{
+    display: block;
+    padding: 10px;
+}
+
+.nav-links ul li a:hover{
+    /* background-image: linear-gradient(#717171, #454545); */
+    transition: 0.2s;
+    background-color: rgb(255, 89, 89);
+}
+
+.dropDown ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: rgb(190, 124, 255);
+}

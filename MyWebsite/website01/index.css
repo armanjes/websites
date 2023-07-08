@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: .99rem;
+}
+
+.navbar > a{
+    margin: 0 -5px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.403),rgba(0, 0, 0, 0)), url(img/kyle-glenn-nXt5HtLmlgE-unsplash.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo{
+    color: whitesmoke;
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h1{
+    font-size: 8vmin;
+}
+
+.line{
+    width: 12rem;
+    height: .19rem;
+    background-color: #fc036b;
+    border-radius: 4rem;
+    margin: 10px auto;
+}
+.btn{
+    color: whitesmoke;
+    background-color: #fc036b;
+    padding: .2rem .9rem;
+    border-radius: 40rem;
+}
+
+.events{
+    overflow: auto;
+    color: rgb(69, 90, 127);
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.box{
+    box-sizing: border-box;
+}
+.formBox{
+    margin: auto;
+    width: 320px;
+    padding: 10px;
+    background-color: #ececec;
+    border-radius: 2rem;
+}
+
+.formBox input,button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 14.5px;
+    background: transparent;
+}
+
+.search > button{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 1.7rem;
+    /* padding:  4px; */
+}
+
+.search > button:hover{
+    cursor: pointer;
+}
+
+/* -----------upcoming events----------------*/
+.parentCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.card1{
+    width: 50%;
+}
+
+.card2{
+    width: 50%;
+}
+.card1img > img{
+    width: 90%;
+}
+
+#text{
+    text-align: justify;
+    width: 85%;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+}
+
+.card1img > img:hover{
+    width: 95%;
+    transition: 0.4s;
+}
+
+/* explore section */
+
+.exploreSection{
+    background-image: url(./img/istockphoto-468868193-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+.exploreSection > h2{
+    color: #ececec;
+    width: 500px;
+    text-align: center;
+}
+
+.exploreSection > p{
+    color: #000;
+    text-align: justify;
+    width: 500px;
+    text-align: center;
+}
