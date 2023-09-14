@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fa8231;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; */
+}
+
+.bar{
+    display: none;
+}
+
+.navs ul,.logo{
+    display: flex;
+    padding: 10px 80px;
+}
+.navs ul li{
+    list-style: none;
+}
+.navs ul li a{
+    padding: 11px 10px;
+    color: black;
+}
+
+.navs ul li a:hover{
+    background-color: #ee5253;
+}
+
+header{
+    background-image: url('./img/pexels-diyar-shahbaz-13693491.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#parent-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#first-section{
+    background-color: #83afff;
+    padding: 30px 0;
+}
+
+#first-section h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.child-box-one{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.child-box-one i{
+    font-size: x-large;
+}
+
+.child-box-one h3{
+    margin: 6px 0;
+}
+
+
+.smart-area{
+    background: linear-gradient( #ff9f43,#ee5253);
+}
+.smart-area h1{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.img-container{
+    width: 30%;
+    height: 250px;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+#parent-div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.text-area-container{
+    width: 50%;
+}
+
+.text-area-container h4,h2,p{
+    padding-bottom: 12px;
+}
+
+.text-area-container button{
+    border: none;
+    outline-color: transparent;
+    padding: 8px 13px;
+    background-color: #fa8231;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.text-area-container button:hover{
+    background-color: rgb(4, 19, 69);
+    color: #ff6600;
+    transition: all 0.5s ease-in-out;
+}
+
+#third-section{
+    background: linear-gradient(#222f3e 50%,#133557);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 60vh;
+    padding: 80px;
+}
+.about-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#text-section span{
+    display: block;
+    margin: 12px 0;
+    font-size: larger;
+    font-weight: bolder;
+}
+#text-section{
+    color: #fff;
+}
+
+#text-section ul{
+    margin-left: 16px;    
+}
+
+#text-section button{
+    border: none;
+    outline-color: transparent;
+    padding: 6px;
+    margin: 12px 0 0 0;
+    background-color: #ee5253;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#card-section-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    margin: 0 0 0 35px;
+}
+
+.card-section-child{
+    padding: 15px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.card-section-child h3{
+    margin: 10px 0;
+}
+
+#contact-section{
+    padding: 60px 0;
+}
+
+#contact-form{
+    background-color: #fff;
+    box-shadow: 1px 1px 33px #4d4d4e;
+    padding: 50px 45px;
+    border-radius: 6px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+#contact-form h2{
+    text-align: center;
+    margin: 0 0 6px 0;
+}
+
+.form-input{
+    display: block;
+    width: 100%;
+    margin: 8px 0 0 0;
+    padding: 6px;
+    outline-color: transparent;
+    border-color: transparent;
+    border-bottom: 1px solid skyblue;
+}
+
+.submit-btn{
+    display: block;
+    margin: 8px auto;
+    border: none;
+    outline-color: transparent;
+    padding: 8px 18px;
+    background-color: #00bbff;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#section-five{
+    background: linear-gradient(#ff7675, #e17055);
+    color: floralwhite;
+    width: 100%;
+}
+
+.section-five-parent-div{
+    margin: 0 80px;
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.with-border{
+    outline-color: transparent;
+    border: 4px solid #40739e;
+    border-radius: 4px;
+    padding: 18px;
+}
+
+.with-border i{
+    font-size: x-large;
+    margin: 0 12px;
+}
+
+.with-border h5{
+    font-weight: bolder;
+    margin: 8px 0;
+}
+
+.with-border p{
+    color: #3d495d;
+    font-size: 18px;
+}
+
+.with-border:nth-child(2){
+    border-color: whitesmoke;
+}
+
+.without-border{
+    line-height: 1.3;
+    letter-spacing: 1.3;
+}
+
+.without-border h2{
+    width: 10%;
+}
+
+.team-parent{
+    margin: 40px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.team-img{
+    width: 90%;
+}
+.team-img img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.team-text{
+    width: 60%;
+}
+.team-text h2{
+    font-size: xx-large;
+}
+
+.team-text ul{
+    margin: 0 0 0 15px;
+}
+
+#footer{
+    background-color: #57606f;
+    padding: 24px 80px 0 80px;
+}
+
+.footer-parent{
+    display: flex;
+    justify-content: center;
+}
+.footer-child{
+    width: 33%;
+    color: floralwhite;
+}
+.footer-child a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+.footer-child a:hover{
+    transform: translateX(1.4px);    
+}
+
+.footer-child span{
+    font-weight: bolder;
+    font-size: larger;
+}
+.footer-child h5{
+    margin: 0 0 16px 0;
+}
+.footer-child p{
+    line-height: 1.6;
+}
+
+.Links{
+    margin: 0 0 0 52px;
+}
+
+.media a{
+    display: inline-block;
+}
+
+.footer-child i{
+    font-size: x-large;
+    margin: 0 5px;
+}
+
+.copy-right-section{
+    text-align: center;
+    color: floralwhite;
+    padding: 14px 0 14px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsice code */
+
+
+
+@media screen and (max-width: 688px) {
+    .navs{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    #parent-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #first-section{
+        background: linear-gradient(#83afff 35%, rgb(246, 91, 122) 95%);
+    }
+    #parent-div{
+        display: block;
+    }
+    .img-container{
+        width: 95%;
+        height: 80%;
+        margin: 0 auto;
+    }
+    .img-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .text-area-container{
+        display: block;
+        width: 95%;
+    }
+    .text-area-container h4{
+        margin: 8px 0 0 0;
+    }
+    .about-parent{
+        display: block;
+    }
+    #card-section-parent{
+        display: block;
+        margin: 0 auto;
+    }
+    .card-section-child{
+        margin: 12px 0;
+    }
+    #third-section{
+        background: linear-gradient(#222f3e 50%,#133557);
+        width: auto;
+        height: auto;
+        padding: 80px;
+    }
+
+    .section-five-parent-div{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .with-border{
+        margin: 15px auto;
+    }
+    .without-border{
+        text-align: center;
+    }
+
+    .without-border h2{
+        width: 100%;
+    }
+
+    .team-parent{
+        display: block;
+        margin: 10px 20px;
+    }
+
+    .team-text{
+        margin: 0 auto;
+    }
+    .team-text h2{
+        font-size: medium;
+    }
+    .team-img{
+       min-width: 98%;
+       margin: 12px auto;
+    }
+    .team-img img{
+        width: 100%;
+    }
+    .footer-parent{
+        display: block;
+        margin: 0;
+    }
+    .Links{
+        margin: 0px;
+    }
+    .media{
+        margin: 22px 0 0 0;
+    }
+    .footer-child{
+        width: 100%;
+    }
+    .footer-child p{
+        width: 100%;
+    }
+}
