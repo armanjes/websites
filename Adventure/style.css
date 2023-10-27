@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+/* Base Comment */
+
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    border: none;outline-color: transparent;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', Montserrat;
+    transition: all 0.3s linear;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+*::selection{
+    background-color: #ff9f43;
+    color: #fefefe;
+}
+
+
+/* reuseable */
+section{
+    padding: 1.5rem 7rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+    color: #bebec5;
+}
+
+
+
+
+
+/*=============================================
+=            home            =
+=============================================*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    & nav ul{
+        display: flex;
+        gap: 3rem;
+      
+        & li a{
+            font-size: 1.51rem;
+            color: #000000;
+            text-transform: capitalize;
+            font-weight: 600;
+            position: relative;
+            transition: all 0.3s linear;
+
+            &::after{
+                position: absolute;
+                border-bottom: 2px solid rgb(255, 206, 84);
+                width: 0%;
+                content: "";
+                bottom: -2px;
+                left: 0;
+                transition: all 0.3s linear;
+            }
+
+            &:hover:after,
+            &:hover{
+                width: 80%;
+            }
+        
+    }
+
+    
+    }
+
+}
+
+
+
+/*=====  End of home  ======*/
+
+
+
+/*=============================================
+=            hero            =
+=============================================*/
+
+.section-hero {
+  background-image: url('./img/landingPage.avif.avif');
+  height: 100vh;
+  margin: 0 7rem;
+  overflow: hidden;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*=====  End of hero  ======*/
+
+
+
+/*=============================================
+=            places & feature            =
+=============================================*/
+
+.section-place--rapper---parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap row;
+  gap: 2rem;
+  margin-top: 1rem;
+
+  & .rapper {
+    flex: 1 1 30rem;
+    border: 1px solid #cdbdbd;
+    border-radius: .6rem;
+    padding: .5rem;
+
+    & h5{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+
+    & button{
+        background-color: #ff9f43;
+        color: #fff;
+        padding: .5rem 1rem;
+        font-weight: 500;
+        border-radius: .2rem;
+        margin-bottom: .6rem;
+        cursor: pointer;
+    }
+
+    & img{
+        width: 100%;
+        object-fit: cover;
+        height: 22rem;
+        border-radius: .6rem;
+      }
+
+      & i{
+        color: #ff9f43;
+        font-size: 4rem;
+      }
+  }
+
+  
+}
+
+/*=====  End of places & feature  ======*/
+
+
+
+
+
+
+
+/*=============================================
+=            book now           =
+=============================================*/
+
+.container-parent {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap row;
+  gap: 1rem;
+
+  & .img{
+    flex: 1 1 30rem;
+  }
+
+  & img{
+    width: 100%;
+    border-radius: .4rem;
+    
+  }
+}
+
+.container-parent form{
+  padding: 1.2rem 1.4rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  flex: 1 1 30rem;
+  
+
+  & div{
+    margin-top: 1rem;
+
+    & h5{
+        font-size: 1.2rem;
+    }
+
+    & .btn {
+      width: 22%;
+      margin-top: 2rem;
+      border: none;outline: none;
+      background-color: #ff9f43;
+      font-size: 1.4rem;
+      color: #fefefe;
+      padding: .5rem 1rem;
+      cursor: pointer;
+      border-radius: .2rem;
+    }
+  }
+
+  & input{
+    border: 1px solid #666;
+    padding: .3rem;
+    display: block;
+    width: 100%;
+  }
+}
+
+/*=====  End of book now  ======*/
+
+
+footer{
+  padding: 1.5rem 7rem;
+  background-color: #000000;
+
+  & span{
+   color: white;
+   display: block;
+   border-top: 1px solid white;
+   text-align: center;
+  }
+  
+  & .footer-container{
+    display: flex;
+    justify-content: center;
+    flex-direction:  row;
+    flex-wrap: wrap;
+
+    & div{
+      flex: 1 1 25rem;
+      margin: 2rem 0;
+    }
+
+    & div a{
+      display: block;
+      font-size: 1.5rem;
+      color: #ffffff;
+    }
+
+    & div h5{
+      font-size: 2rem;
+      color: #ffffff;
+    } 
+  }
+}
+
+
+
+
+
+
+
+/*=============================================
+=            responsive            =
+=============================================*/
+
+/* mobile resonsive */
+@media (max-width: 688px) {
+    html{
+        font-size: 56%;
+    }
+
+    section{
+        padding: 1.5rem .7rem;
+    }
+    footer{
+       padding: 1.5rem .7rem;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: .5rem;
+        align-items: center;
+        padding: 1.5rem 0 1rem 0;
+
+        & nav ul{
+            display: flex;
+            gap: 1.5rem;
+
+            & li a{
+                font-size: 1.51rem;
+                color: #222;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .section-hero {
+        height: 50vh;
+        margin: 0 0;
+      }
+
+    .section-place--rapper---parent{
+        gap: 1rem;
+    }
+
+    footer .footer-container div{
+      margin: .3rem 0;
+    }
+}
+
+/*=====  End of responsive  ======*/
+
